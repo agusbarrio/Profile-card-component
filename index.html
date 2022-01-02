@@ -11,13 +11,32 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
+
+  <!-- HTML Meta Tags -->
+  <link rel="canonical" href="https://agusbarrio.github.io/Profile-card-component/">
   <title>Profile card component</title>
+  <meta name="description" content="Tarjeta de perfil hecha con HTML y CSS">
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://agusbarrio.github.io/Profile-card-component/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Profile card component">
+  <meta property="og:description" content="Tarjeta de perfil hecha con HTML y CSS">
+  <meta property="og:image" content="https://agusbarrio.github.io/Profile-card-component/images/desktop-design.jpg">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="agusbarrio.github.io">
+  <meta property="twitter:url" content="https://agusbarrio.github.io/Profile-card-component/">
+  <meta name="twitter:title" content="Profile card component">
+  <meta name="twitter:description" content="Tarjeta de perfil hecha con HTML y CSS">
+  <meta name="twitter:image" content="https://agusbarrio.github.io/Profile-card-component/images/desktop-design.jpg">
 </head>
 
 <body>
+  <div class="bg-body">
+    <img src="images/bg-pattern-top.svg" alt="">
+    <img src="images/bg-pattern-bottom.svg" alt="">
+  </div>
   <main>
     <div class="profile-card">
       <div class="bg-pattern">
@@ -29,21 +48,24 @@
           <h3>Victor Crest <span>26</span></h3>
           <p>London</p>
         </div>
+        <hr>
+        <div class="profile-stats">
+          <div>
+            <h3>80K</h3>
+            <p>Followers</p>
+          </div>
+          <div>
+            <h3>803K</h3>
+            <p>Likes</p>
+          </div>
+          <div>
+            <h3>1.4K</h3>
+            <p>Photos</p>
+          </div>
+        </div>
       </div>
-      <div class="profile-stats">
-        <div>
-          <h3>80K</h3>
-          <p>Followers</p>
-        </div>
-        <div>
-          <h3>803K</h3>
-          <p>Likes</p>
-        </div>
-        <div>
-          <h3>1.4K</h3>
-          <p>Photos</p>
-        </div>
-      </div>
+
+
     </div>
   </main>
 
