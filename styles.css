@@ -1,0 +1,61 @@
+/* Variables */
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+}
+/* Reset */
+html {
+  box-sizing: inherit;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h3,
+p {
+  margin: 0;
+}
+/* Main */
+/* Card styles */
+.profile-card {
+  background-color: lightcoral;
+  width: max-content;
+}
+
+.bg-pattern img {
+  display: block;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-stats div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Footer */
+.attribution {
+  width: 100%;
+  color: var(--soft-blue);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.attribution p {
+  margin: 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
